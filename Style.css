@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: linear-gradient(65deg, #4e5055, #370ddf);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background: linear-gradient(35deg, #8d23f1, #82de6d);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.btn:active{
+    padding: 12px 22px;
+    margin-inline: 12px;
+    border-radius: 10px;
+
+}
+
+
+
+#stopBtn{
+    background: linear-gradient(128deg, #e70312, #c2d1af);
+}
+
+#startBtn{
+    background: linear-gradient(110deg, green, #c2d1af);
+}
+
+#resetBtn{
+    background: linear-gradient(120deg, rgb(222, 240, 25), #2bb532);
+}
